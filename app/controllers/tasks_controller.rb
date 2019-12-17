@@ -9,7 +9,7 @@ class TasksController < ApplicationController
     end
     
     def new
-        @task = Task.new(content: 'taskを入力')
+        @task = Task.new
     end
     
     def create

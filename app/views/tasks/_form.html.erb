@@ -12,7 +12,7 @@
 
 <%= form_with(model: task, local: true) do |f| %>
     <%= f.label :content, 'タスク内容' %>
-    <%= f.text_field :content %>
+    <%= f.text_field :content, placeholder: 'taskを入力' %>
     
     <%= f.label :status, 'ステータス' %>
     <%= f.text_field :status %>
